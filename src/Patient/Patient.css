@@ -1,0 +1,14 @@
+#verify{
+	height: 400px;
+	width: 600px;
+	border: 2px solid black;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 30px;
+}
+
+
+button {
+	border-radius: 2px;
+	font-size: 13px;
+}

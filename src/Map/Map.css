@@ -1,0 +1,36 @@
+img {
+	width: 400px;
+	height: 600px;
+}
+
+
+
+div {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#map {
+  height: 600px;
+  margin-top: 20px;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px
+}
+
+
+#map-marker{
+	background: teal;
+	opacity: 1;
+	color: red;
+}
+
+style={{
+    position: 'relative', color: 'white', background: 'red',
+    height: 40, width: 60, top: -20, left: -30,    
