@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './Prescribed.css';
+import Footer from '../Footer/Footer.js';
+
 
 
 
@@ -22,10 +24,9 @@ class Prescribed extends Component{
 
 					<h1>This is a list of prescribed scripts</h1>
 
-
-
-					
 				</div>
+				<Footer />
+
 			</div>
 
 			)
