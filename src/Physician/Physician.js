@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Physician.css';
+import Prescribed from '../Prescribed/Prescribed.js';
 
 class Physician extends Component{
 	constructor(){
@@ -67,12 +68,14 @@ class Physician extends Component{
 					</form>
 
 
+					
+
 
 
 
 				</div>
 
-
+				<Prescribed />
 
 <ul >{data}</ul>
 

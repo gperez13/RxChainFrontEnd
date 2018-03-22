@@ -20,7 +20,7 @@ class Patient extends Component{
 				<div id="verify">
 
 
-					<h1>Hello You, <br/> Which prescription would you like to verify?</h1>
+					<h1>Hello Person, <br/> Which prescription would you like to verify?</h1>
 
 
 
