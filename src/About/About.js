@@ -16,8 +16,14 @@ class About extends Component{
 
 					<h1>Here is an About page!!!</h1>
 					<hr/>
-					<h7>RxChain is a blockchain solution to inefficiencies in 
-					the Pharmaseutical industry. </h7>
+					<h7>RxChain is a Blockchain based Pharmaceutical 
+					application aimed at bridging the gap between 
+					hospital EMR systems and Pharmacy records while 
+					reducing drug abuse & operation inefficiencies. 
+					It uses IBM’s Hyperledger technology to eliminate 
+					PHI breaches and is displayed through a React front 
+					d interphase. I am currently working on deploying 
+					the Hyperledger model using Docker. </h7>
 
 
 					

@@ -34,8 +34,4 @@ class Prescribed extends Component{
 
 
 
-
-
-
-
 export default Prescribed;
