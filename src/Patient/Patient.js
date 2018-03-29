@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Patient.css';
 import AnimatedWrapper from "../AnimatedWrapper";
+import Footer from '../Footer/Footer.js';
+
 
 
 
@@ -34,7 +36,7 @@ class PatientComponent extends Component{
 
 
 
-
+				<Footer/>
 			</div>
 
 			)

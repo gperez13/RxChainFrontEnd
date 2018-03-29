@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Physician.css';
 import AnimatedWrapper from "../AnimatedWrapper";
 import Prescribed from '../Prescribed/Prescribed.js';
+import Footer from '../Footer/Footer.js';
+
 
 class PhysicianComponent extends Component{
 	constructor(){
@@ -82,7 +84,7 @@ class PhysicianComponent extends Component{
 
 
 
-
+				<Footer/>
 			</div>
 
 			)

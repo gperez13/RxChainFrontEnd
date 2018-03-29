@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Vendor.css';
 import AnimatedWrapper from "../AnimatedWrapper";
+import Footer from '../Footer/Footer.js';
 
 
 
@@ -68,7 +69,7 @@ class VendorComponent extends Component{
 
 
 
-
+				<Footer/>
 			</div>
 
 			)

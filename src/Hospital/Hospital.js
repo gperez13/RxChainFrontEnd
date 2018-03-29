@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import AnimatedWrapper from "../AnimatedWrapper";
 import './Hospital.css';
+import Footer from '../Footer/Footer.js';
+
 
 class HospitalComponent extends Component{
 	constructor(){
@@ -91,8 +93,8 @@ class HospitalComponent extends Component{
 <ul >{data}</ul>
 
 
-
-
+	
+				<Footer/>
 			</div>
 
 			)

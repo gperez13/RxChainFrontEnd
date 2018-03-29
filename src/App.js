@@ -8,6 +8,7 @@ import {
 import TransitionGroup from "react-transition-group/TransitionGroup";
 import './App.css';
 import Header from './Header/Header.js';
+import Landing from './Landing/Landing.js';
 import Hospital from './Hospital/Hospital.js';
 import Patient from './Patient/Patient.js';
 import Vendor from './Vendor/Vendor.js';
@@ -53,49 +54,15 @@ class App extends Component {
 
 
 
+        <Route
 
-        <section id="home" style={{"margin-bottom": "50px"}}>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-sm-12">
-                <h3>PRESCRIPTION BLOCKCHAIN | ONLINE RECIPE FILLER</h3><br/>
-                <h1>RxChain</h1>
-                <hr/>
-                <Link to="/about"><p class="smoothScroll btn btn-default">What we do</p></Link>
-                <Link to="/pharmamap"><p class="smoothScroll btn btn-default">Pharma Map</p></Link>
-              </div>
-            </div>
-          </div>    
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-          
-                 <nav id="nav">
-                  <container>
-                    <ul style={{"list-style": "none", float: "right"}}>
-                      <Link to="/hospital"><li>Hospital</li></Link>
-                      <Link to="/physician"><li>Physicians</li></Link>
-                      <Link to="/patient"><li>Patients</li></Link>
-                      <Link to="/vendor"><li>Vendors</li></Link>
-                    </ul>
-                  </container>
-                </nav>
-
-
-
-
+            exact
+            path="/"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Landing {...rest} />}
+            </TransitionGroup>
+        )}/>
 
         <Route
 
@@ -161,10 +128,6 @@ class App extends Component {
           </div>
         </Router>
 
-
-
-
-        <footer/>
 
 
       </div>

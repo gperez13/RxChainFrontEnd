@@ -7,7 +7,7 @@ class Footer extends Component{
 
 
 
-	function 
+	 
 
 	render(){
 
@@ -18,7 +18,7 @@ class Footer extends Component{
 				<div id="footer">
 
 
-					<div class=" ">This page was made by Giovanni Perez.<br/> 
+					<div class="footer">This page was made by Giovanni Perez.<br/> 
 
 					</div>
 
