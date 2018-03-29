@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import './About.css';
+import AnimatedWrapper from "../AnimatedWrapper";
 import Footer from '../Footer/Footer.js';
 
 
 
-class About extends Component{
+class AboutComponent extends Component{
 
 	render(){
 
@@ -41,12 +42,7 @@ class About extends Component{
 
 			)
 	}
-}
+};
 
-
-
-
-
-
-
+const About = AnimatedWrapper(AboutComponent);
 export default About;

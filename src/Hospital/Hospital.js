@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import AnimatedWrapper from "../AnimatedWrapper";
 import './Hospital.css';
 
-class Hospital extends Component{
+class HospitalComponent extends Component{
 	constructor(){
     super()
 
@@ -102,6 +103,5 @@ class Hospital extends Component{
 
 
 
-
-
+const Hospital = AnimatedWrapper(HospitalComponent);
 export default Hospital;

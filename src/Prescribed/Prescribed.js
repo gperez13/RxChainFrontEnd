@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './Prescribed.css';
+import AnimatedWrapper from "../AnimatedWrapper";
 import Footer from '../Footer/Footer.js';
 
 
 
 
-class Prescribed extends Component{
+class PrescribedComponent extends Component{
 
 
 
@@ -31,8 +32,8 @@ class Prescribed extends Component{
 
 			)
 	}
-}
+};
 
 
-
+const Prescribed = AnimatedWrapper(PrescribedComponent);
 export default Prescribed;

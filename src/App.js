@@ -95,12 +95,68 @@ class App extends Component {
 
 
 
-             <Route path="/hospital"  component={Hospital}/>
-             <Route path="/physician"  component={Physician}/>
-             <Route path="/patient"  component={Patient}/>
-             <Route path='/vendor'  component={Vendor}/>
-             <Route path='/pharmamap'  component={Mapp}/>
-             <Route path='/about'  component={About}/>
+
+
+        <Route
+
+            exact
+            path="/about"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <About {...rest} />}
+            </TransitionGroup>
+        )}/>
+
+        <Route
+
+            exact
+            path="/hospital"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Hospital {...rest} />}
+            </TransitionGroup>
+        )}/> 
+
+
+        <Route
+
+            exact
+            path="/patient"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Patient {...rest} />}
+            </TransitionGroup>
+        )}/>        
+
+        <Route
+
+            exact
+            path="/physician"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Physician {...rest} />}
+            </TransitionGroup>
+        )}/>
+
+        <Route
+
+            exact
+            path="/vendor"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Vendor {...rest} />}
+            </TransitionGroup>
+        )}/>
+
+        <Route
+
+            exact
+            path="/pharmamap"
+            children={({ match, ...rest }) => (
+            <TransitionGroup component={firstChild}>
+                {match && <Mapp {...rest} />}
+            </TransitionGroup>
+        )}/> 
 
           </div>
         </Router>

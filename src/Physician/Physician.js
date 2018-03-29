@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './Physician.css';
+import AnimatedWrapper from "../AnimatedWrapper";
 import Prescribed from '../Prescribed/Prescribed.js';
 
-class Physician extends Component{
+class PhysicianComponent extends Component{
 	constructor(){
     super()
 
@@ -86,12 +87,10 @@ class Physician extends Component{
 
 			)
 	}
-}
+};
 
 
 
 
-
-
-
+const Physician = AnimatedWrapper(PhysicianComponent);
 export default Physician;

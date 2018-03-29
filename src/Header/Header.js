@@ -33,10 +33,29 @@ class Header extends Component{
 
 							<div class="col-10">
 
-			                  <Link to="/Abount"><p class="smoothScroll btn btn-default link">Home</p></Link>
-			                  <Link to="/Hospitals"><p class="smoothScroll btn btn-default link">Sign In</p></Link>
+			                  <Link to="/about"><p class="smoothScroll btn btn-default link">About</p></Link>
+			                  <Link to="/hospital"><p class="smoothScroll btn btn-default link">Hospitals</p></Link>
+			                  <Link to="/pharmamap"><p class="smoothScroll btn btn-default link">PharmaFinder</p></Link>
 
 							</div>
+
+						<div class="row">
+
+							<div class="col-12">
+								<h5 class="audiences">Audiences</h5>
+
+							</div>
+
+
+
+							<div class="col-12">
+
+			                  <Link to="/physician"><p class="smoothScroll btn btn-default link">Physicians</p></Link>
+			                  <Link to="/patient"><p class="smoothScroll btn btn-default link">Patients</p></Link>
+			                  <Link to="/vendor"><p class="smoothScroll btn btn-default link">Pharma</p></Link>
+
+							</div>
+						</div>
 						</div>
 					</div>
 				</div>

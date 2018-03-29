@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import './Patient.css';
+import AnimatedWrapper from "../AnimatedWrapper";
 
 
 
-class Patient extends Component{
+
+class PatientComponent extends Component{
 
 
 
@@ -37,12 +39,12 @@ class Patient extends Component{
 
 			)
 	}
-}
+};
 
 
 
 
 
 
-
+const Patient = AnimatedWrapper(PatientComponent);
 export default Patient;

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import './Vendor.css'
+import './Vendor.css';
+import AnimatedWrapper from "../AnimatedWrapper";
 
 
 
-class Vendor extends Component{
+
+
+class VendorComponent extends Component{
 
 	render(){
 
@@ -70,12 +73,12 @@ class Vendor extends Component{
 
 			)
 	}
-}
+};
 
 
 
 
 
 
-
+const Vendor = AnimatedWrapper(VendorComponent);
 export default Vendor;
