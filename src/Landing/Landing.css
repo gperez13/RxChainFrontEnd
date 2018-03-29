@@ -1,6 +1,10 @@
 #landing{
-	margin: 1rem;
+	margin-top: 50px;
+	margin-bottom: 10rem;
+	margin-right: 100px;
+	margin-left: 100px;
 	padding: 5px;
+	
 }
 
 
@@ -25,17 +29,3 @@ p{
 
 }
 
-
-.link{
-	color: black;
-	padding-bottom: 5px;
-	margin-left: 5rem;
-
-}
-
-.link:hover{
-	border-bottom: 2px solid black;
-	border-radius: 0;
-	transition: 0.5s;
-
-}

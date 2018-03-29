@@ -25,7 +25,7 @@ class Header extends Component{
 
 
 							<div class="col-2">
-								<h4 class="header">RxChain</h4>
+								<h4 class="header" id="title">RxChain</h4>
 
 							</div>
 
