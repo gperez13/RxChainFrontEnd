@@ -1,0 +1,36 @@
+#nav{
+	margin: 1rem;
+	padding: 5px;
+}
+
+
+
+
+.header{
+	font-family: "Playfair Display";
+}
+
+.content{
+	font-family: "PT Sans";
+}
+
+
+p{
+	margin-bottom: 1.5rem;
+
+}
+
+
+.link{
+	color: black;
+	padding-bottom: 5px;
+	margin-left: 5rem;
+
+}
+
+.link:hover{
+	border-bottom: 2px solid black;
+	border-radius: 0;
+	transition: 0.5s;
+
+}

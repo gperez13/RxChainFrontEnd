@@ -5,7 +5,9 @@ import {
   Switch,
   Link
 } from 'react-router-dom';
+import TransitionGroup from "react-transition-group/TransitionGroup";
 import './App.css';
+import Header from './Header/Header.js';
 import Hospital from './Hospital/Hospital.js';
 import Patient from './Patient/Patient.js';
 import Vendor from './Vendor/Vendor.js';
@@ -27,11 +29,25 @@ class App extends Component {
 
 
   render() {
+
+
+  const firstChild = props => {
+
+    const childrenArray = React.Children.toArray(props.children);
+    return childrenArray[0] || null;
+
+  };
+
+
+
     return (
 
       <div>
         <Router>
           <div>
+
+
+            <Header/>
 
 
 
