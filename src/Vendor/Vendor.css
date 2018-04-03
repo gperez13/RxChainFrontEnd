@@ -1,14 +1,31 @@
+
+
 #fill{
 	height: 400px;
-	width: 600px;
 	border: 2px solid black;
 	border-radius: 3px;
-	margin-top: 50px;
-	margin-bottom: 10rem;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
 	margin-right: 100px;
 	margin-left: 100px;
-	padding: 5px;
 	overflow: scroll;
+	
+}
+
+#order-header{
+	padding: 1rem;
+	background-color: #AAAAAA;
+	margin-bottom: 0;
+	
+
+}
+
+#order{
+	color: #001f3f;
+	background-color: #DDDDDD;
+	padding: 1rem;
+	margin: 0;
+
 }
 
 

@@ -170,7 +170,6 @@ class PatientComponent extends Component{
 
 
 
-
 						
 						
 					</div>
