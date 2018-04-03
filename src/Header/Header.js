@@ -32,10 +32,10 @@ class Header extends Component{
 
 
 							<div class="col-10 text-right">
-
-			                  <Link to="/about"><p class="smoothScroll btn btn-default link">About</p></Link>
-			                  <Link to="/hospital"><p class="smoothScroll btn btn-default link">Hospitals</p></Link>
-			                  <Link to="/pharmamap"><p class="smoothScroll btn btn-default link">PharmaFinder</p></Link>
+							<Link to="/"><p class="smoothScroll btn btn-default link">Home</p></Link>
+			                <Link to="/about"><p class="smoothScroll btn btn-default link">About</p></Link>
+			                <Link to="/hospital"><p class="smoothScroll btn btn-default link">Hospitals</p></Link>
+			                <Link to="/pharmamap"><p class="smoothScroll btn btn-default link">PharmaFinder</p></Link>
 
 							</div>
 
