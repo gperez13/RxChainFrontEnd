@@ -44,7 +44,8 @@ class LandingComponent extends Component{
 					</div>
 
 
-					<div class="col text-left" id="squares">
+					<div class="col text-center" id="squares">
+						<img id="vector" src="/doctor128.png"/>
 						<h2>Wholistic Patient Care</h2>
 						<h7>Physicians are able to deliver greater Value Based Care as they 
 						monitor medication intake from their patients, improve preventitive care, 
@@ -52,7 +53,8 @@ class LandingComponent extends Component{
 
 					</div>
 
-					<div class="col text-left" id="squares">
+					<div class="col text-center" id="squares">
+						<img id="vector" src="/pills128.png"/>
 						<h2>Medication Delivered </h2>
 						<h7>Patients are able to order their medication from the comfort of 
 						their own home. Hospitals and Pharmacies can rest assured that the correct
@@ -61,7 +63,8 @@ class LandingComponent extends Component{
 
 					</div>
 
-					<div class="col text-left" id="squares">
+					<div class="col text-center" id="squares">
+						<img id="vector" src="/chart128.png"/>
 						<h2>Medical Records Secure</h2>
 						<h7>Pharmacies can access specific medical data without overstepping HIPAA 
 						boundries. As Pharmacy services overlap with local clinical functions, we are also

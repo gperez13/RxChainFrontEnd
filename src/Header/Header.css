@@ -1,7 +1,7 @@
 #nav{
 	margin: 0;
 	border: 3rem;
-	padding: 3rem 1rem 3rem 1rem;
+	padding: 3rem 0rem 3rem 0rem;
 	background-color: #7FDBFF;
 
 }
@@ -13,9 +13,8 @@
 }
 
 
-#testing{
+#sub-nav{
 	margin-bottom: 3rem;
-	border: 3rem;
 	padding: 2rem 0rem 0.5rem 0rem;
 	background-color: #AAAAAA;
 
@@ -36,10 +35,7 @@
 }
 
 
-p{
-	margin-bottom: 1.5rem;
 
-}
 
 
 .link{
@@ -50,8 +46,8 @@ p{
 }
 
 .link:hover{
-	border-bottom: 2px solid black;
-	border-radius: 0;
+	color: #DDDDDD;
+	text-shadow: 1px 0.5px black;
 	transition: 0.5s;
 
 }
