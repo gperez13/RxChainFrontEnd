@@ -1,14 +1,21 @@
 #about{
-	height: 400px;
-	width: 600px;
+
 	border-radius: 3px;
-	margin-top: 50px;
-	margin-bottom: 100px;
-	margin-right: 100px;
-	margin-left: 100px;
+	margin: 8rem 2rem 10rem 2rem;
 	padding: 5px;
 }
 
 #about-title{
 	text-align: center;
 }
+
+
+p{
+	margin-bottom: 1.5rem;
+	text-align: left;
+
+}
+
+
+
+

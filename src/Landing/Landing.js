@@ -21,7 +21,7 @@ class LandingComponent extends Component{
 		return(
 			<div>
 				<div class="container">
-				<div class="row">
+				<div class="row justify-content-center">
 					<div class="col-lg-12" id="landing">
 
 

@@ -1,18 +1,57 @@
-#verify{
+#my-prescriptions{
 	height: 400px;
-	width: 600px;
 	border: 2px solid black;
 	border-radius: 3px;
-	margin-top: 50px;
-	margin-bottom: 10rem;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
 	margin-right: 100px;
 	margin-left: 100px;
-	padding: 5px;
+	overflow: scroll;
 	
+}
+
+#med-header{
+	padding: 1rem;
+	background-color: #AAAAAA;
+	margin-bottom: 0;
+	
+
 }
 
 
 button {
 	border-radius: 2px;
 	font-size: 13px;
+	float: right;
+}
+
+
+
+#meds1{
+	color: #FF851B;
+	text-shadow: -1px 0.5px black;
+	background-color: #85144b;
+	padding: 1rem;
+	margin: 0;
+
+
+}
+
+
+#meds2{
+	color: #FFFFFF;
+	text-shadow: -1px 0.5px black;
+	background-color: #3D9970;
+	padding: 1rem;
+	margin: 0;
+
+}
+
+#meds3{
+	color: #FFDC00;
+	text-shadow: -1px 0.5px #111111;
+	background-color: #0074D9;
+	padding: 1rem;
+	margin: 0;
+
 }
