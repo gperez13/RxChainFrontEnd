@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMap from 'google-map-react';
+import Footer from '../Footer/Footer.js';
 
 
 
@@ -297,6 +298,11 @@ renderMarkers = (map, maps) => {
    
 
         </GoogleMap>
+
+
+
+
+        <Footer/>
       </div>
     )
   }

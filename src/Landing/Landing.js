@@ -44,7 +44,8 @@ class LandingComponent extends Component{
 					</div>
 
 
-					<div class="col-12 col-sm-12 col-md-3 text-center" id="squares">
+
+					<div class="col-12 col-sm-12 col-md-3 .col-lg-3 text-center" id="squares">
 						<img id="vector" src="/doctor128.png"/>
 						<h2>Wholistic Patient Care</h2>
 						<br/>
@@ -54,7 +55,7 @@ class LandingComponent extends Component{
 
 					</div>
 
-					<div class="col-12 col-sm-12 col-md-3 text-center" id="squares">
+					<div class="col-12 col-sm-12 col-md-3 .col-lg-4 text-center" id="squares">
 						<img id="vector" src="/pills128.png"/>
 						<h2>Medication Delivered </h2>
 						<br/>
@@ -65,7 +66,7 @@ class LandingComponent extends Component{
 
 					</div>
 
-					<div class="col-12 col-sm-12 col-md-3 text-center" id="squares">
+					<div class="col-12 col-sm-12 col-md-3 .col-lg-3 text-center" id="squares">
 						<img id="vector" src="/chart128.png"/>
 						<h2>Secure Medical Records</h2>
 						<br/>
