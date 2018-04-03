@@ -31,7 +31,7 @@ class Header extends Component{
 
 
 
-							<div class="col-10">
+							<div class="col-10 text-right">
 
 			                  <Link to="/about"><p class="smoothScroll btn btn-default link">About</p></Link>
 			                  <Link to="/hospital"><p class="smoothScroll btn btn-default link">Hospitals</p></Link>
@@ -39,16 +39,26 @@ class Header extends Component{
 
 							</div>
 
-						<div class="row">
 
-							<div class="col-12">
-								<h5 class="audiences">Audiences</h5>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+						<div id="testing">
+							<div class="col-12 text-center">
+								<h5 id="audiences">Audiences</h5>
+								<hr/>
 
 							</div>
 
 
 
-							<div class="col-12">
+							<div class="col-12 text-center">
 
 			                  <Link to="/physician"><p class="smoothScroll btn btn-default link">Physicians</p></Link>
 			                  <Link to="/patient"><p class="smoothScroll btn btn-default link">Patients</p></Link>
@@ -56,9 +66,13 @@ class Header extends Component{
 
 							</div>
 						</div>
-						</div>
-					</div>
-				</div>
+
+
+
+
+
+
+
 			</div>
 
 			)

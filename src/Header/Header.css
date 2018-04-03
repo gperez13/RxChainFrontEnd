@@ -1,16 +1,25 @@
 #nav{
 	margin: 0;
 	border: 3rem;
-	padding: 2rem 1rem 0.5rem 1rem;
+	padding: 3rem 1rem 3rem 1rem;
 	background-color: #7FDBFF;
 
 }
 
 #title{
 	color: #FF4136;
+	text-shadow: -1px 0.5px black;
+
 }
 
 
+#testing{
+	margin-bottom: 3rem;
+	border: 3rem;
+	padding: 2rem 0rem 0.5rem 0rem;
+	background-color: #AAAAAA;
+
+}
 
 
 .header{
