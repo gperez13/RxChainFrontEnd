@@ -16,8 +16,7 @@ class VendorComponent extends Component{
 		return(
 
 			<div>
-
-<div class="container">
+				<div class="container">
 					<div class="row justify-content-start" id="verify">
 
 

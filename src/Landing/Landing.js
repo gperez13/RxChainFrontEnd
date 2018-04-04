@@ -25,7 +25,7 @@ class LandingComponent extends Component{
 					<div class="col-lg-12" id="landing">
 
 
-						<h2>The Healthcare Bridge Between The Hospital and Home</h2>
+						<h2 id="home-title">The Healthcare Bridge Between The Hospital and Home</h2>
 
 						<br/><br/>
 						<p>The prescribed medication process in the United States 
