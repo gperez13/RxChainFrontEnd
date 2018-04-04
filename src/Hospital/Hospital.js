@@ -62,6 +62,9 @@ class HospitalComponent extends Component{
 		return(
 
 			<div>
+
+			Page not finished yet, click on something else please! :)
+
 				<div id="hospital">
 
 					<h1>New Patient</h1>

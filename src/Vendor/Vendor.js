@@ -126,7 +126,7 @@ class VendorComponent extends Component{
 					<div class="col-lg-12" id="landing">
 
 
-						<h2>Pharmacy CMR and Hospitasl Integration</h2>
+						<h2>Pharmacy CMR and Hospital Integration</h2>
 
 						<br/><br/>
 						<p>Pharmacies can integrate the end point of RxChain to formulate an EMR system. This 

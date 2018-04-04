@@ -10,6 +10,22 @@
 	
 }
 
+#script-form{
+	color: #001f3f;
+	background-color: #DDDDDD;
+	padding: 1rem;
+	margin: 0;
+
+}
+
+#script-header{
+	padding: 1rem;
+	background-color: #AAAAAA;
+	margin-bottom: 0;
+	
+
+}
+
 
 form {
 	text-align: right;

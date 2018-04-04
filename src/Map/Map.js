@@ -272,6 +272,9 @@ renderMarkers = (map, maps) => {
     return(
       <div style={{height: "800px", width: "75%", padding: "0", margin: "0", float: "both",  border: "1px solid black", "border-radius": "7px"}}>
 
+Page not finished yet, click on something else please! :)
+
+
         <GoogleMap
         options={createMapOptions}
         style={style}
